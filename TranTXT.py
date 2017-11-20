@@ -9,6 +9,7 @@
 import csv
 import re
 
+
 def readFile(i):
     fileName = 'data/' + str(i) + '.csv'
     with open(fileName, encoding='utf-8') as csvfile:
@@ -34,12 +35,13 @@ def readFile(i):
 def saveClassifyFile(filename, list):
     file = open(filename, 'a+', encoding='utf-8')
     newString = str(list).strip()
-    pattern = re.compile(r'[\u4e00-\u9fa5]+')
-    filterdata = re.findall(pattern, newString)
-    cleanedData = ''.join(filterdata)
-    # cleanedData = newString.replace('[', '').replace(']', '').replace(' ', '').replace('\'', '')
+    # pattern = re.compile(r'[\u4e00-\u9fa5]+')
+    # filterdata = re.findall(pattern, newString)
+    # cleanedData = ''.join(filterdata)
+    cleanedData = newString.replace('?', '').replace(']', '').replace(' ', '').replace('\'', '').replace('\\n', '').replace('[','')
     file.write(cleanedData)
     file.close()
+
 
 if __name__ == '__main__':
     posFile = 'pos.txt'
