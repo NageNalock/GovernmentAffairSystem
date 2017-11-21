@@ -21,7 +21,7 @@ dcID = 1  # 辣鸡评论的唯一ID
 errorID = 1  # 错误评论的唯一ID
 
 
-def readDataAddID(i):
+def readOriginDataAddID(i):
     pos = []
     neg = []
     driedchicken = []
@@ -55,6 +55,7 @@ def readDataAddID(i):
                 row['errorID'] = errorID
                 errorID += 1
                 error.append(row)
+    f.close()
     return pos, neg, driedchicken, error
 
 
@@ -65,6 +66,7 @@ def writeData(dataList, headers, filename):
         w_csv = csv.DictWriter(f, headers)
         w_csv.writeheader()
         w_csv.writerows(dataList)
+    f.close()
 
 
 if __name__ == '__main__':
@@ -79,7 +81,7 @@ if __name__ == '__main__':
     errorHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'errorID']
 
     for i in range(1, 15):
-        posList, negList, dcList, errorList = readDataAddID(i)
+        posList, negList, dcList, errorList = readOriginDataAddID(i)
         print('读取第' + str(i) + '个文件')
         writeData(posList, posHeaders, posFile)
         print('写入pos')

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546f6c5a-28aa-4a27-8c1f-f61c757ec2ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassifyData.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CutWords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PMI.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassifyData.py" afterPath="$PROJECT_DIR$/ClassifyData.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,35 +15,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="4">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="TranTXT.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/TranTXT.py">
+            <file leaf-file-name="3_analysis_test.py" pinned="false" current-in-tab="true">
+              <entry file="file://F:/备份/MovieAnalysis/3_analysis_test.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="654">
-                    <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="26" />
+                  <state relative-caret-position="264">
+                    <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
                     <folding>
-                      <element signature="e#173#183#0" expanded="true" />
+                      <element signature="e#180#192#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="generateDataAndTest.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/generateDataAndTest.py">
+            <file leaf-file-name="1_login_and_get_3.0.py" pinned="false" current-in-tab="false">
+              <entry file="file://F:/备份/MovieAnalysis/1_login_and_get_3.0.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+                  <state relative-caret-position="-3388">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="2_clean_douban.py" pinned="false" current-in-tab="false">
+              <entry file="file://F:/备份/MovieAnalysis/2_clean_douban.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="440">
+                    <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="3_analysis_douban.py" pinned="false" current-in-tab="false">
+              <entry file="file://F:/备份/MovieAnalysis/3_analysis_douban.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="3_analysis_test_2.0.py" pinned="false" current-in-tab="false">
+              <entry file="file://F:/备份/MovieAnalysis/3_analysis_test_2.0.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-140">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -54,11 +78,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassifyData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClassifyData.py">
+      <file leaf-file-name="CutWords.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CutWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="81" column="32" lean-forward="false" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+              <folding>
+                <element signature="e#222#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PMI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PMI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2390">
+              <caret line="109" column="8" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -84,6 +120,8 @@
         <option value="$PROJECT_DIR$/GetFeature.py" />
         <option value="$PROJECT_DIR$/generateDataAndTest.py" />
         <option value="$PROJECT_DIR$/ClassifyData.py" />
+        <option value="$PROJECT_DIR$/分表/PMI.py" />
+        <option value="$PROJECT_DIR$/CutWords.py" />
       </list>
     </option>
   </component>
@@ -115,6 +153,11 @@
               <item name="GovernmentAffairSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="GovernmentAffairSystem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GovernmentAffairSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GovernmentAffairSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="分表" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,6 +169,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="last_opened_file_path" value="F:/备份/MovieAnalysis" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GovernmentAffairSystem\GovernmentAffairSystem" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ClassifyData">
+  <component name="RunManager" selected="Python.CutWords">
     <configuration name="ClassifyData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,6 +201,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GovernmentAffairSystem" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassifyData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="CutWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GovernmentAffairSystem" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CutWords.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,14 +239,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.TranTXT" />
       <item index="1" class="java.lang.String" itemvalue="Python.ClassifyData" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CutWords" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.ClassifyData" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TranTXT" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.CutWords" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ClassifyData" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TranTXT" />
       </list>
     </recent_temporary>
   </component>
@@ -248,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/备份/MovieAnalysis/1_login_and_get_3.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ReadFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -288,11 +348,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/备份/MovieAnalysis/3_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ClassifyData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="1036">
+          <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/3_analysis_test_2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/3_analysis_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/1_login_and_get_3.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3388">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/2_clean_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2390">
+          <caret line="109" column="8" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/3_analysis_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#180#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="0" column="2669" lean-forward="true" selection-start-line="0" selection-start-column="2669" selection-end-line="0" selection-end-column="2669" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CutWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="81" column="32" lean-forward="false" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+          <folding>
+            <element signature="e#222#234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
