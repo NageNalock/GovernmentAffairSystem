@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546f6c5a-28aa-4a27-8c1f-f61c757ec2ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BalanceData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3.csv" afterPath="$PROJECT_DIR$/data/3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassifyData.py" afterPath="$PROJECT_DIR$/ClassifyData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/分表/driedchicken.csv" afterPath="$PROJECT_DIR$/分表/driedchicken.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/分表/error.csv" afterPath="$PROJECT_DIR$/分表/error.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/分表/neg.csv" afterPath="$PROJECT_DIR$/分表/neg.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/分表/pos.csv" afterPath="$PROJECT_DIR$/分表/pos.csv" />
-    </list>
+    <list default="true" id="546f6c5a-28aa-4a27-8c1f-f61c757ec2ff" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1870" />
@@ -254,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1870" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1870" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14563107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
