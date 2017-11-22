@@ -8,7 +8,7 @@
 
 '''
 分表并且为数据添加ID
-五个表分别为 相关表 非相关表 无用信息表 错误表
+五个表分别为 相关表 非相关表 无用信息表 错误表 总表(只包含相关与非相关)
 每个相关或非相关信息都有一个唯一ID
 相关数据与非相关数据也分别有一个自己ID
 '''
@@ -16,7 +16,7 @@ import csv
 
 dataID = 1  # 每条数据的唯一ID
 posID = 1  # 相关评论的唯一ID
-negID = 1  # 非相关评论的唯一ID
+negID = -1  # 非相关评论的唯一ID
 dcID = 1  # 辣鸡评论的唯一ID
 errorID = 1  # 错误评论的唯一ID
 
@@ -26,6 +26,7 @@ def readOriginDataAddID(i):
     neg = []
     driedchicken = []
     error = []
+    sum = []
     global dataID
     global posID
     global negID
@@ -38,13 +39,16 @@ def readOriginDataAddID(i):
         for row in data_csv:
             row['微博内容'] = (row['微博内容']).strip().rstrip(' ')
             row['dataID'] = dataID
+            row['DataSource'] = i
             dataID += 1
             if row['flag'] == '0':
-                row['negID'] = negID
+                row['FeatureID'] = negID
+                sum.append(row)
                 neg.append(row)
-                negID += 1
+                negID -= 1
             elif row['flag'] == '1':
-                row['posID'] = posID
+                row['FeatureID'] = posID
+                sum.append(row)
                 pos.append(row)
                 posID += 1
             elif row['flag'] == '-1':
@@ -56,7 +60,7 @@ def readOriginDataAddID(i):
                 errorID += 1
                 error.append(row)
     f.close()
-    return pos, neg, driedchicken, error
+    return pos, neg, driedchicken, error, sum
 
 
 def writeData(dataList, headers, filename):
@@ -74,14 +78,20 @@ if __name__ == '__main__':
     negFile = 'neg'
     driedchickenFile = 'driedchicken'
     errorFile = 'error'
+    sumFile = 'sum'
 
-    posHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'posID']
-    negHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'negID']
-    dcHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'dcID']
-    errorHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'errorID']
-
-    for i in range(1, 15):
-        posList, negList, dcList, errorList = readOriginDataAddID(i)
+    posHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
+                  'DataSource']
+    negHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
+                  'DataSource']
+    dcHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'dcID', 'DataSource']
+    errorHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'errorID',
+                    'DataSource']
+    sumHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
+                  'DataSource']
+    for i in [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]:
+    # for i in range(1, 16):
+        posList, negList, dcList, errorList, sumList = readOriginDataAddID(i)
         print('读取第' + str(i) + '个文件')
         writeData(posList, posHeaders, posFile)
         print('写入pos')
@@ -91,5 +101,7 @@ if __name__ == '__main__':
         print('写入dc')
         writeData(errorList, errorHeaders, errorFile)
         print('写入error')
+        writeData(sumList, sumHeaders, sumFile)
 
         print('*****')
+        # print(range(1, 2) , range(4, 16))
