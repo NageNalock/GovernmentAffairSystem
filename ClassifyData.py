@@ -40,6 +40,7 @@ def readOriginDataAddID(i):
             row['微博内容'] = (row['微博内容']).strip().rstrip(' ')
             row['dataID'] = dataID
             row['DataSource'] = i
+            row['Score'] = 0
             dataID += 1
             if row['flag'] == '0':
                 row['FeatureID'] = negID
@@ -81,16 +82,17 @@ if __name__ == '__main__':
     sumFile = 'sum'
 
     posHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
-                  'DataSource']
+                  'DataSource', 'Score']
     negHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
-                  'DataSource']
-    dcHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'dcID', 'DataSource']
+                  'DataSource', 'Score']
+    dcHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'dcID', 'DataSource',
+                 'Score']
     errorHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'errorID',
-                    'DataSource']
+                    'DataSource', 'Score']
     sumHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID', 'flag', 'dataID', 'FeatureID',
-                  'DataSource']
+                  'DataSource', 'Score']
     for i in [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]:
-    # for i in range(1, 16):
+        # for i in range(1, 16):
         posList, negList, dcList, errorList, sumList = readOriginDataAddID(i)
         print('读取第' + str(i) + '个文件')
         writeData(posList, posHeaders, posFile)
