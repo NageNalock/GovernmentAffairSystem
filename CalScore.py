@@ -22,7 +22,8 @@ def relevanceScore(str1, str2, model='BOW'):
 
     try:
         return result['score']
-    except KeyError or ConnectionError or TimeoutError or requests.packages.urllib3.exceptions.NewConnectionError or requests.exceptions.ConnectionError:
+    except KeyError or ConnectionError or TimeoutError :
+        print('错误')
         return 0
 
 
@@ -72,7 +73,7 @@ def getDataScore(str_t):
         print('原分分数', sumData['Score'])
 
         if score_t != 0:
-            score = (score_t + float(sumData['Score'])) / 2
+            score = score_t + float(sumData['Score'])
             sumData['Score'] = score
             newData.append(sumData)
     writeData(newData)
@@ -115,7 +116,8 @@ if __name__ == '__main__':
     #     j += 1
     # result = relevanceScore('饶进阳没有女朋友', '饶进阳是个好人')
     # print(result)
-    for k in ['5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']:
+    for k in ['9', '10', '11', '12', '13', '14', '15']:
+    # for k in dataDict.keys():
         for i in range(10):
             str_temp = dataDict[k][i]['微博内容']
             print('key:', k, 'i:', i)

@@ -7,7 +7,8 @@
 # @Software: PyCharm Community Edition
 
 from NLPTest import myAip
-list = ['阿黄是条好狗','百度是一家伟大的公司']
+
+list = ['阿黄是条好狗', '百度是一家伟大的公司']
 # print(myAip())
-result = myAip().commentTag(list)
+result = myAip().commentTag('百度是一家伟大的公司')
 print(result)
