@@ -4,8 +4,8 @@
 
 信息熵
 卡方
-TF
-TF-IDF
+TF √
+TF-IDF √
 TextRank
 
 具体方法思路:

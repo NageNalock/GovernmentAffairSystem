@@ -16,12 +16,19 @@ https://www.cnblogs.com/chenbjin/p/3851165.html
 
 这里正常统计词频
 而逆向文件频率的文件数则改为评论数
+算法退化?
 '''
 from TF import getTF, readData
 from SimpleClassify import writeData
 
 
 def saveDictAsTxt(filename, dataDict):
+    '''
+    将词典保存为txt文件
+    :param filename: 保存的文件名
+    :param dataDict: 保存的词典
+    :return: 无
+    '''
     retrunStr = ''
     for key in dataDict:
         tempStr = str(key) + ':' + str(dataDict[key]) + '\n'
@@ -54,48 +61,33 @@ def normalization(wordDict):
 
 
 def imTFandIDF():
+    '''
+    特征TF减去总的TF
+    :return: 词典类型的结果
+    '''
     posDict = normalization(getTF(1))
-    # print(posDict.items())
     sumDict = normalization(getTF(2))
-    # print(sumDict.items())
+
     returnDict = {}
     for key in posDict:
         try:
             temp = posDict[key] - sumDict[key]
             returnDict[key] = temp
-            # tempStr = str(key) + ':' + str(returnDict[key]) + '\n'
-            # retrunStr += tempStr
+
         except KeyError:
             continue
     saveDictAsTxt('pos.txt', posDict)
     saveDictAsTxt('sum.txt', sumDict)
     saveDictAsTxt('rt.txt', returnDict)
-    # print(returnDict.items())
-    # posStr = str(posDict) + '\n'
-    # sumStr = str(sumDict) + '\n'
-    #
-    # f = open('pos.txt', 'w+', encoding='utf-8')
-    # g = open('neg.txt', 'w+', encoding='utf-8')
-    # h = open('rt.txt', 'w+', encoding='utf-8')
-    # f.write(posStr)
-    # g.write(sumStr)
-    # h.write(retrunStr)
-    # f.close()
-    # g.close()
-    # h.close()
+
     return dict(returnDict)
 
 
 if __name__ == '__main__':
-    # testDict = getTF(1)
-    # normalization(testDict)
-    # testDict2 = getTF(2)
-    # print(testDict2)
-    # normalization(testDict2)
     finalDict = imTFandIDF()
     fianl = sorted(finalDict.items(), key=lambda e: e[1], reverse=True)
     print(fianl)
-    # saveDictAsTxt('最后结果.txt', fianl)
+    saveDictAsTxt('最后结果.txt', dict(fianl))
 '''
 改良思考
 我们是否可以将相关评论作为TF的统计

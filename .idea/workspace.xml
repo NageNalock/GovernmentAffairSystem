@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546f6c5a-28aa-4a27-8c1f-f61c757ec2ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleClassify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tf-IDF.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pos.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rt.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一版/分表/driedchicken.csv" afterPath="$PROJECT_DIR$/第一版/分表/driedchicken.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一版/分表/error.csv" afterPath="$PROJECT_DIR$/第一版/分表/error.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一版/分表/neg.csv" afterPath="$PROJECT_DIR$/第一版/分表/neg.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一版/分表/pos.csv" afterPath="$PROJECT_DIR$/第一版/分表/pos.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/第一版/分表/sum.csv" afterPath="$PROJECT_DIR$/第一版/分表/sum.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tf-IDF.py" afterPath="$PROJECT_DIR$/Tf-IDF.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stopwords.txt" afterPath="$PROJECT_DIR$/stopwords.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/需求确认.txt" afterPath="$PROJECT_DIR$/需求确认.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,44 +17,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="3_analysis_test.py" pinned="false" current-in-tab="false">
-              <entry file="file://F:/备份/MovieAnalysis/3_analysis_test.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-1371">
-                    <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
-                    <folding>
-                      <element signature="e#180#192#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="1_ogin_douban.py" pinned="false" current-in-tab="true">
-              <entry file="file://F:/备份/MovieAnalysis/1_ogin_douban.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-66">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SimpleClassify.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleClassify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="1694">
               <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
               <folding />
             </state>
@@ -77,11 +42,21 @@
       <file leaf-file-name="Tf-IDF.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tf-IDF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="-1004">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#354#384#0" expanded="true" />
+                <element signature="e#360#390#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stopwords.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stopwords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57508">
+              <caret line="2614" column="2" lean-forward="false" selection-start-line="2614" selection-start-column="2" selection-end-line="2614" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,8 +64,8 @@
       <file leaf-file-name="2_clean_douban.py" pinned="false" current-in-tab="false">
         <entry file="file://F:/备份/MovieAnalysis/2_clean_douban.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,8 +74,8 @@
       <file leaf-file-name="TF.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="68" />
+            <state relative-caret-position="638">
+              <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="68" />
               <folding>
                 <element signature="e#179#208#0" expanded="true" />
               </folding>
@@ -111,7 +86,7 @@
       <file leaf-file-name="ReadFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="946">
               <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding />
             </state>
@@ -121,8 +96,8 @@
       <file leaf-file-name="ClassifyData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/第一版/ClassifyData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="880">
+              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -164,10 +139,10 @@
         <option value="$PROJECT_DIR$/NLPTest.py" />
         <option value="$PROJECT_DIR$/PipUpdate.py" />
         <option value="$PROJECT_DIR$/需求确认.txt" />
-        <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/SimpleClassify.py" />
         <option value="$PROJECT_DIR$/TF.py" />
         <option value="$PROJECT_DIR$/ReadFile.py" />
+        <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/Tf-IDF.py" />
       </list>
     </option>
@@ -193,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -357,13 +332,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14548405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -390,8 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NLPTest.py" />
-    <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$PROJECT_DIR$/CleanSum.py" />
     <entry file="file://$PROJECT_DIR$/ClassifyData.py" />
     <entry file="file://$PROJECT_DIR$/Test.py" />
@@ -472,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-          <folding>
-            <element signature="e#175#185#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,14 +452,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第一版/ClassifyData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="880">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -498,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,15 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="2615" column="1" lean-forward="false" selection-start-line="2615" selection-start-column="1" selection-end-line="2615" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,68 +489,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="946">
           <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/备份/MovieAnalysis/3_analysis_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1371">
-          <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
-          <folding>
-            <element signature="e#180#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/备份/MovieAnalysis/1_ogin_douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleClassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/备份/MovieAnalysis/2_clean_douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="68" />
+        <state relative-caret-position="638">
+          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="68" />
           <folding>
             <element signature="e#179#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/备份/MovieAnalysis/3_analysis_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="101" column="33" lean-forward="false" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/1_ogin_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/备份/MovieAnalysis/2_clean_douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57508">
+          <caret line="2614" column="2" lean-forward="false" selection-start-line="2614" selection-start-column="2" selection-end-line="2614" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pos.txt" />
+    <entry file="file://$PROJECT_DIR$/SimpleClassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/最后结果.txt" />
     <entry file="file://$PROJECT_DIR$/Tf-IDF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="-1004">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="e#354#384#0" expanded="true" />
+            <element signature="e#360#390#0" expanded="true" />
           </folding>
         </state>
       </provider>
