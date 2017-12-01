@@ -20,7 +20,7 @@ https://www.cnblogs.com/chenbjin/p/3851165.html
 '''
 from TF import getTF, readData
 from SimpleClassify import writeData
-
+# 直接使用
 
 def saveDictAsTxt(filename, dataDict):
     '''

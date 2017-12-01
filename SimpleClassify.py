@@ -63,7 +63,7 @@ def classify():
         data_csv = csv.DictReader(f)
         for row in data_csv:
             tempDict = {}
-            if row['微博内容'].find('九寨') != -1 and row['微博内容'].find('地震') != -1:  # 评论中包含 九寨 与 地震
+            if row['微博内容'].find('隧道') != -1 and row['微博内容'].find('事故') != -1:  # 入口
                 # posTempDict = {}
                 posNum += 1
                 tempDict['微博内容'] = row['微博内容'].strip()
