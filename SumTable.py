@@ -13,8 +13,9 @@ import csv
 
 
 def readData(i):
+    print('正在读取', i, '号文件')
     sumData = []
-    tableName = 'data/' + str(i) + '.csv'
+    tableName = 'data/'  + str(i)  + '.csv'
     with open(tableName, 'r', encoding='utf-8') as f:
         data_csv = csv.DictReader(f)
         for row in data_csv:
@@ -35,9 +36,9 @@ def writeData(dataList, headers, filename):
 
 
 if __name__ == '__main__':
-    sumHeaders = ['\ufeff序号', '微博内容', '发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID']
+    sumHeaders = ['\ufeff序号', '微博内容', '是否原创','转发内容','发布时间', '转发数', '评论数', '点赞数', '设备源', '微博ID']
     fileName = 'sum'
-    for i in range(1, 10):  # 入口
+    for i in range(1, 73):  # 入口
         print('正在写入', i, '号文件')
         sumList = readData(i)
         writeData(sumList, sumHeaders, fileName)
